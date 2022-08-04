@@ -28,7 +28,7 @@
             <li><a href="#" title="Facebook" target="_blank">Facebook</a></li>
              <li><a href="https://wa.me/+50242110769?" title="Facebook" target="_blank">Whatsapp</a></li>
             <li><a href="https://www.instagram.com/danman200124/?hl=en" title="Instagram" target="_blank">Instagram</a></li>
-            <li><a href="www.linkedin.com/in/josé-daniel-man-castellanos-fullstackwebdeveloper
+            <li><a href="https://www.linkedin.com/in/josé-daniel-man-castellanos-fullstackwebdeveloper
 " title="Linkedin" target="_blank">Linkedin</a></li>
 
         </ul>
@@ -41,7 +41,7 @@
         <div class="row">
             <div class="column large-full ss-copyright">
                 <span>Todos los derechos reservados José Man</span> 
-                <span>Diseñado por<a href="#" target="_blank"> José Daniel Man Castellanos</a></span>
+                <span>Diseñado por<a href="https://www.linkedin.com/in/josé-daniel-man-castellanos-fullstackwebdeveloper" target="_blank"> José Daniel Man Castellanos</a></span>
             </div>            
         </div>
     </footer>

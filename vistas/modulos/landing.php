@@ -81,31 +81,16 @@
 
             <div class="masonry">
                 <div class="grid-sizer"></div>
-    <div class="masonry__brick" data-aos="fade-up" >
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="https://tec.url.edu.gt/" class="thumb-link" title="Sitio web" target="_blank">
-                                <img class="magic-hover magic-hover__square" src="vistas/img/tecpa.png" alt="trabajo9">
-                            </a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                TEC landivar
-                            </h4>
-                            <p class="item-folio__cat">
-                                Rafael Landívar
-                            </p>
-                        </div>
-                       
-                    </div>
-                </div>
-
-                <div class="masonry__brick" data-aos="fade-up">
+                <?php
+                $item = null; 
+                $valor = null; 
+                $categorias = controladorPortafolio::mostrarProyectos($item, $valor); 
+                foreach($categorias as $key => $value){
+                    echo'      <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
                         <div class="item-folio__thumb ">
-                            <a href="https://haricode.com/" class="thumb-link" title="haricode" target="_blank">
-                                <img class="magic-hover magic-hover__square " src="vistas/img/haricode_actualizado.gif" alt="trabajo5">
+                            <a href="'.$value["enlace"].'" class="thumb-link" title="'.$value["title"].'" target="_blank">
+                                <img class="magic-hover magic-hover__square " src="'.$value["img"].'" alt="'.$value["alt"].'">
                             </a>    
                         </div>
     
@@ -118,64 +103,10 @@
                             </p>
                         </div>
                     </div>
-                </div> 
-
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="https://incyt.url.edu.gt/museo-virtual/" class="thumb-link" title="Museo Virtual" target="_blank">
-                                <img class="magic-hover magic-hover__square" src="vistas/img/work4.png" alt="trabajo4">
-                            </a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Museo Virtual
-                            </h4>
-                            <p class="item-folio__cat">
-                                 Rafael Landívar
-                            </p>
-                        </div>
-                    </div>
-                </div> 
-         <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="https://www.ingeorh.com/" class="thumb-link" title="Museo Virtual" target="_blank">
-                                <img class="magic-hover magic-hover__square" src="vistas/img/work12.png" alt="trabajo4">
-                            </a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Ingeor&amph
-                            </h4>
-                            <p class="item-folio__cat">
-                                 Topografía Guatemala
-                            </p>
-                        </div>
-                    </div>
-                </div> 
-   <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="https://upbeat-lewin-0e3a3a.netlify.app/" class="thumb-link" title="cift" target="_blank">
-                                <img class="magic-hover magic-hover__square" src="vistas/img/work1.png" alt="trabajo1">
-                            </a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                 Clínica Cift
-                            </h4>
-                            <p class="item-folio__cat">
-                          Guatemala 
-                            </p>
-                        </div>
-                    </div>
-                </div> 
-                     
-            </div> 
-
-        </div>
+                </div> '; 
+                }
+                ?>
+    
 
     </section> 
       <!--==========TERMINA - Sección trabajos realizados=============-->
@@ -195,96 +126,89 @@
 
             <div class="row acercade__lineatiempo">
 
-                <div class="column large-half tab-full" data-aos="fade-up">
-                    <div class="lineatiempo">
-                   
-
-                        <div class="lineatiempo__block">
+            <div class="column large-half tab-full" data-aos="fade-up">
+                                <div class="lineatiempo">
+                   <?php
+                    $item = null; 
+                    $valor = null; 
+                    $categorias = controladorPortafolio::mostrarTrabajos($item, $valor); 
+                    foreach($categorias as $key => $value){
+                        if($value["id"]<= 3){
+                            echo'<div class="lineatiempo__block">
                             <div class="lineatiempo__bullet"></div>
                             <div class="lineatiempo__header">
-                                <p class="lineatiempo__timeframe">Noviembre 2018 - Presente</p>
-                                <h3 class="item-title">Cursos Diversos</h3>
-                                <h5>Udemy</h5>
+                                <p class="lineatiempo__timeframe">'.$value["fecha-trabajo"].'</p>
+                                <h3 class="item-title">'.$value["subtitulo"].'</h3>
+                                <h5> '.$value["titulo"].'
+                                </h5>
                             </div>
                             <div class="lineatiempo__desc">
-                                 <p class="padding">Inicio mi formación académica en la plataforma udemy realizando diversos cursos relacionados con el  desarrollo web y programación como por ejemplo:<br><br><br> - Desarrollo de una tienda virtual con PHP, HTML, CSS y JS.<br>- Curso de 110 para desarrolladores fullstack.<br>- Github profesional.<br>- C# profesional.<br> entre otros muchos.</p>
-                                <img src="vistas/img/udemy.jpg" alt="udemy" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
-
-                                
+                                 <p class="padding">'.$value["descripcion"].'
+                                    
+                                 </p>
+                                 <ul class="lista">
+                                 '.$value["lista"].'
+                            
+                                </ul>
+                                <img src=" '.$value["img"].'
+                                " alt="udemy" data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom">
+                            
                             </div>
-                        </div>
+                            </div>'; 
+                        }
 
-                        <div class="lineatiempo__block">
+
+
+
+                    }
+                   ?>
+
+</div>
+    </div>
+
+    <div class="column large-half tab-full" data-aos="fade-up">
+                                <div class="lineatiempo">
+                   <?php
+                    $item = null; 
+                    $valor = null; 
+                    $categorias = controladorPortafolio::mostrarTrabajos($item, $valor); 
+                    foreach($categorias as $key => $value){
+                        if($value["id"]> 3){
+                            echo'<div class="lineatiempo__block">
                             <div class="lineatiempo__bullet"></div>
                             <div class="lineatiempo__header">
-                                <p class="lineatiempo__timeframe">Noviembre 2018 - Presente</p>
-                                <h3 class="item-title">Desarrollador Freelance</h3>
-                                <h5>Upwork</h5>
+                                <p class="lineatiempo__timeframe">'.$value["fecha-trabajo"].'</p>
+                                <h3 class="item-title">'.$value["subtitulo"].'</h3>
+                                <h5> '.$value["titulo"].'
+                                </h5>
                             </div>
                             <div class="lineatiempo__desc">
-                            <p class="padding">Inicio mi formación profesional trabajando como programador y desarrollador web freelance, realicé diversos trabajos como por ejemplo:<br><br><br>- Wordpress Sitio web presentación.<br>- Utilización de Google API.<br>- Sitio web personal (cliente de Estados Unidos).<br>- Manejo de archivos PDF.</p>
-                                                                                                <img src="vistas/img/upwork.png" alt="campus landivar" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
-
+                                 <p class="padding">'.$value["descripcion"].'
+                                    
+                                 </p>
+                                 <ul class="lista">
+                                 '.$value["lista"].'
+                            
+                                </ul>
+                                <img src=" '.$value["img"].'
+                                " alt="udemy" data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom">
+                            
                             </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="column large-half tab-full" data-aos="fade-up">
-                    <div class="lineatiempo">
+                            </div>'; 
+                        }
 
 
 
-                        <div class="lineatiempo__block">
-                            <div class="lineatiempo__bullet"></div>
-                            <div class="lineatiempo__header">
-                                <p class="lineatiempo__timeframe">Enero 2017 - Presente</p>
-                                <h3 class="item-title">Diversos cursos</h3>
-                                <h5>Edx</h5>
-                            </div>
-                            <div class="lineatiempo__desc">
-                                <p class="padding">Inicio mi formación ácademica en la plataforma udemy realizando diversos cursos relacionados con la programación y ámbito estudiantil como por ejemplo:<br><br><br> - Curso C principiantes <br>- Curso C intermedio <br>- Curso C avanzado<br>- Biología general</p>
-                                                                <img src="vistas/img/edx.jpg" alt="campus landivar"data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" >
 
-                            </div>
-                        </div>
+                    }
+                   ?>
 
-                        
-                         <div class="lineatiempo__block">
-                            <div class="lineatiempo__bullet"></div>
-                            <div class="lineatiempo__header">
-                                <p class="lineatiempo__timeframe">Enero 2020 - Presente</p>
-                                <h3 class="item-title">Diseñador y programador</h3>
-                                <h5>Incyt</h5>
-                            </div>
-                            <div class="lineatiempo__desc">
-                                <p class="padding">Inicio mi formación profesional como diseñador y programador de diversos sitios web en el centro de investigación de la universidad rafael landívar. </p>
-                                                                                                <img src="vistas/img/Tec.jpg" alt="campus landivar" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
+</div>
+    </div>   
 
-                            </div>
-                        </div>
-                            <div class="lineatiempo__block">
-                            <div class="lineatiempo__bullet"></div>
-                            <div class="lineatiempo__header">
-                                <p class="lineatiempo__timeframe">Octubre 2021 - Presente</p>
-                                <h3 class="item-title">Analísta Desarrollador</h3>
-                                <h5>TEC Landívar</h5>
-                            </div>
-                            <div class="lineatiempo__desc">
-                                <p class="padding">Continuo mi formación profesional siendo contratado como analísta desarrolador en la Universidad Rafael Landívar comenzando con el sitio web del TEC landivar.</p>
-                                                                                                <img src="vistas/img/trabajo.jpg" alt="campus landivar" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+            
             </div>
 
         </div> 
