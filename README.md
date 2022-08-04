@@ -48,7 +48,7 @@
 
 
 Soy José Daniel Man Castellanos, tengo 21 años y soy desarrollador web fullstack, comencé mi crecimiento como desarrollador web desde los 14 años realizando diversos
-Cursos. Tengo 4 años de experiencia laboral trabajando para diversad entidades como upwork, la Universidad Rafael Landívar y haricode (empresa propia de desarollo web). Tengo experiencia en las siguientes tecnologías: 
+Cursos. Tengo 4 años de experiencia laboral trabajando para diversas entidades como upwork, Universidad Rafael Landívar y haricode (empresa propia de desarrollo web). Tengo experiencia en las siguientes tecnologías: 
 
 * PHP, Laravel, Symphony, MVC 
 * JavaScript, jQuery, Node.js, Angular, APIS REST
