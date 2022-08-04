@@ -52,6 +52,7 @@ Cursos. Tengo 4 años de experiencia laboral trabajando para diversad entidades 
 
 * PHP, Laravel, Symphony, MVC 
 * JavaScript, jQuery, Node.js, Angular, APIS REST
+* Mysql, SqlServer
 * Html
 * Css, Bootstrap, Sass, Css grid
 * Google Cloud, Lampstack, google analytics, google maps, google contacts
