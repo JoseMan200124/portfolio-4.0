@@ -8,7 +8,14 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>Portafolio</title>
       <link rel="shortcut icon" href="vistas/img/hacker.svg">
-      <meta author="joseman" content="disfruta de una expereriencia unica en desarrollo web">
+      <meta name="description" content="Hola! mi nombre es Daniel Man, diseñador y programador fullstack, disfruta de mi portafolio"/>  
+    <meta name="author" content="https://imdanielman.com"/>  
+    <meta property="og:type" content="Sitio web" />
+    <meta property="og:title" content="Portafolio web" />
+    <meta property="og:description" content="Portafolio web diseñado para demostrar mis habilidades como fullstack" />
+    <meta property="og:image" content="vistas/img/hacker.svg" />
+    <meta property="og:url" content="permalink" />
+    <meta name="robots" content="index, follow"/>
       <!--Diseño de todo el sitio-->
       <link rel="stylesheet" href="vistas/css/normalize.css">
       <link rel="stylesheet" href="vistas/css/style.css">
