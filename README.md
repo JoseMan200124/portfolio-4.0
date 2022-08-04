@@ -67,7 +67,7 @@ Cursos. Tengo 4 años de experiencia laboral trabajando para diversas entidades 
 
 
 <!-- CONTACT -->
-## Contact
+## Hablemos!
 
 Your Name - José Man - <a href="mailto:jmancaste@gmail.com">jmancaste@gmail.com</a>
 
