@@ -19,7 +19,7 @@
 
     <div class="column large-5 medium-full contactame-phone">
         <h4>Mis Proyectos</h4>
-        <a href="https://github.com/JoseMan200124" title="Twitter" target="_blank">Github</a>
+        <a href="https://github.com/JoseMan200124/portfolio-4.0" title="Twitter" target="_blank">Github</a>
     </div>
 
     <div class="column large-7 medium-full contactame-social">

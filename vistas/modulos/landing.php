@@ -30,7 +30,7 @@
                      
                       <div class="item"> <a href="#" target="_blank"> <i class="magic-hover magic-hover__square fa fa-facebook"></i></a></div>
                       <div class="item"> <a href="#" target="_blank"> <i class="magic-hover magic-hover__square fa fa-instagram"></i></a></div>
-                      <div class="item"><a href="https://github.com/JoseMan200124" target="_blank"><i class="magic-hover magic-hover__square fa fa-github"></i></a></div>
+                      <div class="item"><a href="https://github.com/JoseMan200124/portfolio-4.0" target="_blank"><i class="magic-hover magic-hover__square fa fa-github"></i></a></div>
                       <div class="item"><a href="https://wa.me/+50242110769?" target="_blank"><i class="magic-hover magic-hover__square fa fa-whatsapp"></i></a></div>
                       <div class="item magic-hover magic-hover__square"><p class="font-grande">Gracias por visitar mi portafolio</p></div>
 
