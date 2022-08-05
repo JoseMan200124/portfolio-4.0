@@ -71,7 +71,7 @@ Cursos. Tengo 4 años de experiencia laboral trabajando para diversas entidades 
 
 Your Name - José Man - <a href="mailto:jmancaste@gmail.com">jmancaste@gmail.com</a>
 
-Project Link: [https://github.com/JoseMan200124/portfolio-4.0](https://github.com/JoseMan200124/portfolio-4.0)
+Link del proyecto: [https://github.com/JoseMan200124/portfolio-4.0](https://github.com/JoseMan200124/portfolio-4.0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
