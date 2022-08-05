@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JoseMan200124">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.gif" alt="Logo" width="250" height="200">
   </a>
 
   <h3 align="center">Portafolio web FullStack</h3>
@@ -48,7 +48,7 @@
 
 
 Soy José Daniel Man Castellanos, tengo 21 años y soy desarrollador web fullstack, comencé mi crecimiento como desarrollador web desde los 14 años realizando diversos
-Cursos. Tengo 4 años de experiencia laboral trabajando para diversad entidades como upwork, la Universidad Rafael Landívar y haricode (empresa propia de desarollo web). Tengo experiencia en las siguientes tecnologías: 
+Cursos. Tengo 4 años de experiencia laboral trabajando para diversad entidades como upwork, Universidad Rafael Landívar y haricode (empresa propia de desarollo web). Tengo experiencia en las siguientes tecnologías: 
 
 * PHP, Laravel, Symphony, MVC 
 * JavaScript, jQuery, Node.js, Angular, APIS REST
@@ -67,11 +67,11 @@ Cursos. Tengo 4 años de experiencia laboral trabajando para diversad entidades 
 
 
 <!-- CONTACT -->
-## Contact
+## Hablemos!
 
 Your Name - José Man - <a href="mailto:jmancaste@gmail.com">jmancaste@gmail.com</a>
 
-Project Link: [https://github.com/JoseMan200124/portfolio-4.0](https://github.com/JoseMan200124/portfolio-4.0)
+Link de proyecto: [https://github.com/JoseMan200124/portfolio-4.0](https://github.com/JoseMan200124/portfolio-4.0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
