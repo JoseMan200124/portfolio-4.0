@@ -76,7 +76,7 @@ html, body{
       transform: translate(-50%, -50%);
       width: 48vw;
       height: 46vh;
-      background: url(../img/ninja-complete.gif) no-repeat 50% 50%;
+      background: url(../img/telefono.gif) no-repeat 50% 50%;
       background-size: cover;
       animation-delay: 2s;
       -webkit-animation: animateGIF 4s cubic-bezier(0,.58,1,.58);
@@ -658,12 +658,11 @@ span {
 }
 
 @media screen and (max-width:600px) {
-  .gif-inicio {
-    
-    width: 70vw;
  
-}
+  .gif-inicio{
+    width: 70vw;
 
+  }
     .title{
         font-size: 4rem!important; 
     }
