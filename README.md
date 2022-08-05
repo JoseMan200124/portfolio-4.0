@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JoseMan200124">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpg" alt="Logo" width="100" height="200">
   </a>
 
   <h3 align="center">Portafolio web FullStack</h3>
