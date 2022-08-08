@@ -19,9 +19,8 @@
 
     <div class="column large-5 medium-full contactame-phone">
         <h4>Mis Proyectos</h4>
-        <a href="https://github.com/JoseMan200124" title="Twitter" target="_blank">Github</a>
+        <a href="https://github.com/JoseMan200124/portfolio-4.0" title="Twitter" target="_blank">Github</a>
     </div>
-
     <div class="column large-7 medium-full contactame-social">
         <h4>Redes Sociales</h4>
         <ul>
@@ -30,10 +29,8 @@
             <li><a href="https://www.instagram.com/danman200124/?hl=en" title="Instagram" target="_blank">Instagram</a></li>
             <li><a href="https://www.linkedin.com/in/josé-daniel-man-castellanos-fullstackwebdeveloper
 " title="Linkedin" target="_blank">Linkedin</a></li>
-
         </ul>
     </div>
-
 </div>
 
 </section> 
