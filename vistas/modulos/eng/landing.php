@@ -10,7 +10,7 @@
                   
                   <div class="gif-inicio"></div>
                   <div class="titulo-principal">
-                        <h1>Programador y diseñador</h1>
+                        <h1>Fullstack Programmer</h1>
                   </div> 
             </div>
 
@@ -18,7 +18,7 @@
                
  <div class="display-none">
         <div class="menu">
-            <div class="label">Pst! presioname</div>
+            <div class="label">Pst! press me</div>
 
                     <div class="espacio"></div>
                      
@@ -26,7 +26,7 @@
                       <div class="item"> <a href="#" target="_blank"> <i class="magic-hover magic-hover__square fa fa-instagram"></i></a></div>
                       <div class="item"><a href="https://github.com/JoseMan200124/portfolio-4.0" target="_blank"><i class="magic-hover magic-hover__square fa fa-github"></i></a></div>
                       <div class="item"><a href="https://wa.me/+50242110769?" target="_blank"><i class="magic-hover magic-hover__square fa fa-whatsapp"></i></a></div>
-                      <div class="item magic-hover magic-hover__square"><p class="font-grande">Gracias por visitar mi portafolio</p></div>
+                      <div class="item magic-hover magic-hover__square"><p class="font-grande">Thanks for visit my portfolio!</p></div>
 
         </div>
 
@@ -42,12 +42,12 @@
 
             <div class="column large-9 mob-full intro-text tama">
             <h3 data-aos="fade-up"
-     data-aos-duration="4000">¡Hola! soy Daniel Man</h3>
+     data-aos-duration="4000">¡Hi! i'm Daniel Man</h3>
             <h1 data-aos="fade-up"
      data-aos-duration="3000">
-                    Diseñador<br>
-                    y Desarrollador Web <br>
-                    FullStack
+                    Fullstack<br>
+                    Web <br>
+                    Developer
             </h1>
             </div>
  <div class="intro-margen"></div>
@@ -63,9 +63,9 @@
 
         <div class="row heading-block heading-block--center" data-aos="fade-up">
             <div class="column large-full">
-                <h2 class="section-heading section-heading--centerbottom titulo">Mis trabajos realizados</h2>
+                <h2 class="section-heading section-heading--centerbottom titulo">my work done</h2>
                 <p class="sec-desc ">
-                    A continuación encontrarás muchos de mis trabajos. haz clic en ellos para verlos
+                Below you will find some of my completed projects. Click on them
                 </p>
             </div>
         </div> 
@@ -83,17 +83,17 @@
                     echo'      <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
                         <div class="item-folio__thumb ">
-                            <a href="'.$value["enlace"].'" class="thumb-link" title="'.$value["title"].'" target="_blank">
-                                <img class="magic-hover magic-hover__square " src="'.$value["img"].'" alt="'.$value["alt"].'">
+                            <a href="'.$value["enlace"].'" class="thumb-link" title="'.$value["titulo-ingles"].'" target="_blank">
+                                <img class="magic-hover magic-hover__square " src="'.$value["img"].'" alt="'.$value["alt-ingles"].'">
                             </a>    
                         </div>
     
                         <div class="item-folio__text">
                             <h4 class="item-folio__title">
-                                '.$value["titulo-grande"].'
+                                '.$value["titulo-grande-ingles"].'
                             </h4>
                             <p class="item-folio__cat">
-                            '.$value["area"].'
+                            '.$value["area-ingles"].'
                             </p>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
             
                      <div class="row heading-block heading-block--center" data-aos="fade-up">
             <div class="column large-full">
-                <h2 class="section-heading section-heading--centerbottom titulo">Trabajo & Educación</h2>
+                <h2 class="section-heading section-heading--centerbottom titulo">Work & Education</h2>
                
             </div>
         </div>
@@ -131,17 +131,17 @@
                             echo'<div class="lineatiempo__block">
                             <div class="lineatiempo__bullet"></div>
                             <div class="lineatiempo__header">
-                                <p class="lineatiempo__timeframe">'.$value["fecha-trabajo"].'</p>
+                                <p class="lineatiempo__timeframe">'.$value["fecha-trabajo-ingles"].'</p>
                                 <h3 class="item-title">'.$value["subtitulo"].'</h3>
-                                <h5> '.$value["titulo"].'
+                                <h5> '.$value["titulo-ingles"].'
                                 </h5>
                             </div>
                             <div class="lineatiempo__desc">
-                                 <p class="padding">'.$value["descripcion"].'
+                                 <p class="padding">'.$value["descripcion-ingles"].'
                                     
                                  </p>
                                  <ul class="lista">
-                                 '.$value["lista"].'
+                                 '.$value["lista-ingles"].'
                             
                                 </ul>
                                 <img src=" '.$value["img"].'
@@ -172,17 +172,15 @@
                             echo'<div class="lineatiempo__block">
                             <div class="lineatiempo__bullet"></div>
                             <div class="lineatiempo__header">
-                                <p class="lineatiempo__timeframe">'.$value["fecha-trabajo"].'</p>
+                                <p class="lineatiempo__timeframe">'.$value["fecha-trabajo-ingles"].'</p>
                                 <h3 class="item-title">'.$value["subtitulo"].'</h3>
-                                <h5> '.$value["titulo"].'
+                                <h5> '.$value["titulo-ingles"].'
                                 </h5>
                             </div>
                             <div class="lineatiempo__desc">
-                                 <p class="padding">'.$value["descripcion"].'
-                                    
-                                 </p>
+                                 <p class="padding">'.$value["descripcion-ingles"].'</p>
                                  <ul class="lista">
-                                 '.$value["lista"].'
+                                 '.$value["lista-ingles"].'
                             
                                 </ul>
                                 <img src=" '.$value["img"].'
@@ -238,10 +236,10 @@ Thank you Jose"</p>
    
   
            <!--==========Sección cv en pdf=============-->   
-   
-        <h2 class="section-heading section-heading--centerbottom title">Visualiza mi CV</h2>
+        
+        <h2 class="section-heading section-heading--centerbottom title">View my CV</h2>
         <p class="descargar-cv">
-        <a href="https://www.dropbox.com/s/2z7xqycej0z12zp/cv.pdf?dl=0" target="_blank">Descarga mi cv aquí</a>
+        <a href="https://www.dropbox.com/s/2z7xqycej0z12zp/cv.pdf?dl=0" target="_blank">Download my CV here</a>
         </p>
     <div class="container">
   <div id="embeddedView"></div>
