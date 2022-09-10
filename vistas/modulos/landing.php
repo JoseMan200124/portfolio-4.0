@@ -10,7 +10,7 @@
                   
                   <div class="gif-inicio"></div>
                   <div class="titulo-principal">
-                        <h1>Programador y diseñador</h1>
+                        <h1>Programador fullstack</h1>
                   </div> 
             </div>
 
