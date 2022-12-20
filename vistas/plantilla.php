@@ -48,7 +48,17 @@ include "modulos/footer.php";
 
 
 <script type="text/javascript" src="vistas/js/circletype.js"></script>
-
+<script type="text/javascript">
+  $('#audio-control').click(function(){
+    if( $("#bg-video").prop('muted') ) {
+          $("#bg-video").prop('muted', false);
+          $(this).text('Silencio');
+    } else {
+      $("#bg-video").prop('muted', true);
+      $(this).text('pst! presioname');
+    }
+});
+</script>
 <script>
       
       const circleType = new CircleType(document.getElementById('circulo'));   

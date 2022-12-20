@@ -1,45 +1,20 @@
 <div id="content">
      
      <!--==========Sección pantalla de aterrizaje=============-->
-      <div class="wrapper">
-           
+     <section class="section main-banner" id="inicio" data-section="section1">
+    <div id="set-height"></div>
+<p id="time"></p>
+      <video id="bg-video" tabindex="0" autobuffer="autobuffer" preload="auto" autoplay="autoplay" loop="true" muted playsinline>
+          <source src="vistas/img/hero.mp4" type="video/mp4" />
+      </video>
 
-            <div class="hero-section">   
-                  <div class="nav">
-                        <div class="nombre">Daniel Man</div>
-                  </div>
-                  
-                  <div class="gif-inicio"></div>
-                  <div class="titulo-principal">
-                        <h1>Programador y diseñador</h1>
-                  </div> 
-
-                  <div class="rotar">
-                        <h2 id="circulo">frontEnd • backEnd • fullStack • diseñador • filantropo </h2>
-                  </div>
-
-            </div>
-
-            <div class="gif-fondo"></div>
-               
- <div class="display-none">
-        <div class="menu">
-            <div class="label">Pst! presioname</div>
-
-                    <div class="espacio"></div>
-                     
-                      <div class="item"> <a href="#" target="_blank"> <i class="magic-hover magic-hover__square fa fa-facebook"></i></a></div>
-                      <div class="item"> <a href="#" target="_blank"> <i class="magic-hover magic-hover__square fa fa-instagram"></i></a></div>
-                      <div class="item"><a href="https://github.com/JoseMan200124/portfolio-4.0" target="_blank"><i class="magic-hover magic-hover__square fa fa-github"></i></a></div>
-                      <div class="item"><a href="https://wa.me/+50242110769?" target="_blank"><i class="magic-hover magic-hover__square fa fa-whatsapp"></i></a></div>
-                      <div class="item magic-hover magic-hover__square"><p class="font-grande">Gracias por visitar mi portafolio</p></div>
-
-        </div>
-
- </div>
-  
-            
+      <div class="video-overlay header-text">
+          <div class="caption">
+                          <h1 data-aos="fade-left"
+     data-aos-duration="600" style="font-size: 60px; font-weight: 700;">FULL STACK DEVELOPER</h1>
+                                   <div id="audio-control" class="muted">pst! presioname</div> 
       </div>
+ </section>
            <!--==========TERMINA - Sección pantalla de aterrizaje=============-->
            <!--==========Sección presentación con mi nombre=============-->
     <section id="intro" class="s-intro target-section">
